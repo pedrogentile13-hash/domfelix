@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Dom Fellix - Comida caseira de qualidade no Morumbi, São Paulo. Parmegiana de filé mignon, pratos executivos que servem até 2 pessoas." />
+  <title>Dom Fellix — Comida Caseira no Morumbi</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Pacifico&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Header -->
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a href="#inicio" class="logo">Dom <span>Fellix</span></a>
+      <nav class="nav" id="nav">
+        <a href="#inicio" class="nav__link">Início</a>
+        <a href="#cardapio" class="nav__link">Cardápio</a>
+        <a href="#galeria" class="nav__link">Galeria</a>
+        <a href="#avaliacoes" class="nav__link">Avaliações</a>
+        <a href="#local" class="nav__link">Localização</a>
+        <a href="#contato" class="nav__link">Contato</a>
+      </nav>
+      <a href="tel:+551132948080" class="btn btn--phone btn--sm">📞 Ligar</a>
+      <button class="nav__toggle" id="navToggle" aria-label="Abrir menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero" id="inicio">
+    <div class="hero__overlay"></div>
+    <div class="container hero__content">
+      <span class="hero__badge">⭐ 4.4 · +600 avaliações</span>
+      <h1 class="hero__title">Dom <span>Fellix</span></h1>
+      <p class="hero__subtitle">Comida caseira de qualidade no Morumbi</p>
+      <p class="hero__text">Parmegiana de filé mignon, pratos executivos generosos e o sabor de casa. Cada prato <strong>serve até 2 pessoas</strong>.</p>
+      <div class="hero__actions">
+        <a href="#cardapio" class="btn btn--primary btn--lg">🍽️ Ver Cardápio</a>
+        <a href="tel:+551132948080" class="btn btn--phone btn--lg">📞 Ligar Agora</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Highlights -->
+  <section class="highlights">
+    <div class="container highlights__grid">
+      <div class="highlight">
+        <span class="highlight__icon">👨‍🍳</span>
+        <h3>Comida Caseira</h3>
+        <p>Receitas tradicionais feitas com carinho todos os dias.</p>
+      </div>
+      <div class="highlight">
+        <span class="highlight__icon">🍽️</span>
+        <h3>Serve até 2 pessoas</h3>
+        <p>Porções generosas com ótimo custo-benefício.</p>
+      </div>
+      <div class="highlight">
+        <span class="highlight__icon">⭐</span>
+        <h3>4.4 estrelas</h3>
+        <p>Mais de 600 clientes satisfeitos aprovam.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Cardápio -->
+  <section class="section section--menu" id="cardapio">
+    <div class="container">
+      <div class="section__head">
+        <span class="section__tag">Cardápio</span>
+        <h2 class="section__title">Nossos pratos</h2>
+        <p class="section__desc">Todos os pratos acompanham <strong>arroz, feijão e salada</strong> e servem até 2 pessoas.</p>
+      </div>
+
+      <article class="featured-dish">
+        <div class="featured-dish__img" style="background-image:url('https://images.unsplash.com/photo-1632778149955-e80f8ceca2e8?auto=format&fit=crop&w=900&q=80')"></div>
+        <div class="featured-dish__info">
+          <span class="tag-best">🔥 Mais pedido</span>
+          <h3>Parmegiana de Filé Mignon</h3>
+          <p>Filé mignon empanado, coberto com molho de tomate caseiro e muito queijo gratinado. Acompanha arroz, feijão e salada.</p>
+          <div class="featured-dish__footer">
+            <span class="serves">🍽️ Serve até 2 pessoas</span>
+            <span class="price">R$ 69,90</span>
+          </div>
+          <a href="tel:+551132948080" class="btn btn--primary">Peça agora</a>
+        </div>
+      </article>
+
+      <h3 class="menu__subtitle">Pratos Executivos</h3>
+      <div class="menu__grid">
+        <div class="menu-card">
+          <div class="menu-card__img" style="background-image:url('https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?auto=format&fit=crop&w=600&q=80')"></div>
+          <div class="menu-card__body">
+            <h4>Bife à Parmegiana</h4>
+            <p>Bife empanado com molho e queijo. Arroz, feijão e salada.</p>
+            <div class="menu-card__foot"><span class="serves">Serve 2</span><span class="price">R$ 54,90</span></div>
+          </div>
+        </div>
+        <div class="menu-card">
+          <div class="menu-card__img" style="background-image:url('https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=600&q=80')"></div>
+          <div class="menu-card__body">
+            <h4>Frango Grelhado</h4>
+            <p>Filé de frango grelhado com legumes. Arroz, feijão e salada.</p>
+            <div class="menu-card__foot"><span class="serves">Serve 2</span><span class="price">R$ 44,90</span></div>
+          </div>
+        </div>
+        <div class="menu-card">
+          <div class="menu-card__img" style="background-image:url('https://images.unsplash.com/photo-1529692236671-f1f6cf9683ba?auto=format&fit=crop&w=600&q=80')"></div>
+          <div class="menu-card__body">
+            <h4>Picanha na Chapa</h4>
+            <p>Picanha fatiada na chapa com farofa. Arroz, feijão e salada.</p>
+            <div class="menu-card__foot"><span class="serves">Serve 2</span><span class="price">R$ 74,90</span></div>
+          </div>
+        </div>
+        <div class="menu-card">
+          <div class="menu-card__img" style="background-image:url('https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=600&q=80')"></div>
+          <div class="menu-card__body">
+            <h4>Filé de Peixe</h4>
+            <p>Filé de peixe grelhado ou à milanesa. Arroz, feijão e salada.</p>
+            <div class="menu-card__foot"><span class="serves">Serve 2</span><span class="price">R$ 49,90</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Galeria -->
+  <section class="section section--gallery" id="galeria">
+    <div class="container">
+      <div class="section__head">
+        <span class="section__tag">Galeria</span>
+        <h2 class="section__title">Dá água na boca</h2>
+      </div>
+      <div class="gallery">
+        <div class="gallery__item" style="background-image:url('https://images.unsplash.com/photo-1632778149955-e80f8ceca2e8?auto=format&fit=crop&w=600&q=80')"></div>
+        <div class="gallery__item" style="background-image:url('https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=600&q=80')"></div>
+        <div class="gallery__item" style="background-image:url('https://images.unsplash.com/photo-1529692236671-f1f6cf9683ba?auto=format&fit=crop&w=600&q=80')"></div>
+        <div class="gallery__item" style="background-image:url('https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=600&q=80')"></div>
+        <div class="gallery__item" style="background-image:url('https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?auto=format&fit=crop&w=600&q=80')"></div>
+        <div class="gallery__item" style="background-image:url('https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?auto=format&fit=crop&w=600&q=80')"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Avaliações -->
+  <section class="section section--reviews" id="avaliacoes">
+    <div class="container">
+      <div class="section__head">
+        <span class="section__tag">Avaliações</span>
+        <h2 class="section__title">O que dizem nossos clientes</h2>
+        <div class="rating-summary">
+          <span class="rating-summary__score">4.4</span>
+          <span class="rating-summary__stars">★★★★☆</span>
+          <span class="rating-summary__count">Mais de 600 avaliações</span>
+        </div>
+      </div>
+      <div class="reviews">
+        <div class="review">
+          <div class="review__stars">★★★★★</div>
+          <p>"Comida caseira e ótimo atendimento. Voltarei com certeza!"</p>
+          <span class="review__author">— Cliente Google</span>
+        </div>
+        <div class="review">
+          <div class="review__stars">★★★★★</div>
+          <p>"Pratos bem servidos que dão para duas pessoas. Vale muito a pena."</p>
+          <span class="review__author">— Cliente Google</span>
+        </div>
+        <div class="review">
+          <div class="review__stars">★★★★★</div>
+          <p>"Parmegiana sensacional! A melhor do Morumbi."</p>
+          <span class="review__author">— Cliente Google</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Localização -->
+  <section class="section section--local" id="local">
+    <div class="container local__grid">
+      <div class="local__info">
+        <span class="section__tag">Localização</span>
+        <h2 class="section__title">Venha nos visitar</h2>
+        <p class="local__addr">📍 Av. Mal. Juarez Távora, 350<br />Super Quadra Morumbi, São Paulo - SP</p>
+        <a href="https://www.google.com/maps/dir/?api=1&destination=Av.+Mal.+Juarez+T%C3%A1vora,+350+-+Super+Quadra+Morumbi,+S%C3%A3o+Paulo+-+SP" target="_blank" rel="noopener" class="btn btn--primary btn--lg">🗺️ Como chegar</a>
+      </div>
+      <div class="local__map">
+        <iframe
+          title="Mapa Dom Fellix"
+          src="https://www.google.com/maps?q=Av.+Mal.+Juarez+T%C3%A1vora,+350+-+Super+Quadra+Morumbi,+S%C3%A3o+Paulo+-+SP&output=embed"
+          loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- Horário + Contato -->
+  <section class="section section--info" id="contato">
+    <div class="container info__grid">
+      <div class="card-info">
+        <h3>🕒 Horário de Funcionamento</h3>
+        <ul class="hours">
+          <li><span>Segunda-feira</span><span>11:00–16:00</span></li>
+          <li><span>Terça-feira</span><span>11:00–16:00</span></li>
+          <li><span>Quarta-feira</span><span>11:00–16:00</span></li>
+          <li><span>Quinta-feira</span><span>11:00–16:00</span></li>
+          <li><span>Sexta-feira</span><span>11:00–16:00</span></li>
+          <li><span>Sábado</span><span>11:00–17:00</span></li>
+          <li class="closed"><span>Domingo</span><span>Fechado</span></li>
+        </ul>
+      </div>
+      <div class="card-info">
+        <h3>📞 Contato</h3>
+        <p class="contact__line">Faça seu pedido ou reserve sua mesa:</p>
+        <a href="tel:+551132948080" class="btn btn--phone btn--lg btn--block">📞 (11) 3294-8080</a>
+        <a href="https://wa.me/5511932948080?text=Ol%C3%A1!%20Gostaria%20de%20fazer%20um%20pedido%20no%20Dom%20Fellix." target="_blank" rel="noopener" class="btn btn--whats btn--lg btn--block">💬 WhatsApp</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <a href="#inicio" class="logo logo--light">Dom <span>Fellix</span></a>
+      <p>Comida caseira de qualidade no Morumbi · São Paulo - SP</p>
+      <p class="footer__small">© 2026 Dom Fellix. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <!-- Botão flutuante WhatsApp -->
+  <a href="https://wa.me/5511932948080?text=Ol%C3%A1!%20Gostaria%20de%20fazer%20um%20pedido%20no%20Dom%20Fellix." target="_blank" rel="noopener" class="float-whats" aria-label="WhatsApp">💬</a>
+
+  <script src="script.js"></script>
+</body>
+</html>
